@@ -1,7 +1,6 @@
 # myFirstRepo
 My first Description in here...
 
-
 This is a README.md file.                 
 .md is markdown. 
 
@@ -21,3 +20,8 @@ UPDATE 2: Second update to README.md
 # The Best way to Learn is, by Doing it.
 
 * LEARNING BY DOING
+
+
+#TO MASTER MARKDOWN FILE
+
+https://guides.github.com/features/mastering-markdown/
