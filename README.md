@@ -22,6 +22,6 @@ UPDATE 2: Second update to README.md
 * LEARNING BY DOING
 
 
-#TO MASTER MARKDOWN FILE
+# TO MASTER MARKDOWN TEXT FORMATTING:
 
 https://guides.github.com/features/mastering-markdown/
