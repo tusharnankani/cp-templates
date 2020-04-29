@@ -17,3 +17,7 @@ Order of Preference:
 UPDATE: This is my first update to this README file.
 
 UPDATE 2: Second update to README.md
+
+# The Best way to Learn is, by Doing it.
+
+* LEARNING BY DOING
