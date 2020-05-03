@@ -5,6 +5,7 @@
 * git status
 
 * git add *file-name*
+* git add -A
 * git commit -m *"message here..."*
 * git push origin master
 
