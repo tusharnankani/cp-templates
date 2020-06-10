@@ -1,12 +1,13 @@
-#pragma GCC optimize("O2") 
+#pragma GCC optimize("O3") 
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef long long int ll;
 typedef unsigned long long int ull;
+typedef long double ld;
 
-#define test(t)		int t; cin>>t; while(t--)
+#define test(t)		int t; cin >> t; while(t--)
 #define f(i, a, b)	for(int (i) = (a); (i) < (b); ++(i))
 #define all(a)		(a).begin(), (a).end()
 #define endl 		"\n"
@@ -16,8 +17,8 @@ typedef unsigned long long int ull;
 #define minarr(arr)     *min_element(arr, arr + n)
 #define deb(x)		cout << #x << "--" << x << "--" << endl;
 #define deb2(x,y)	cout << #x << "-" << x << "-" << " ~~ " <<  #y << "-" << y << "-" << endl;
-#define deb3(x,y,z)	cout << #x << "-" << x << "-" << " ~~ " <<  #y << "-" << y << "-" << " ~~ " << #z << "-" << z << "-" << endl;
 #define deba(arr)	cout << #arr << " ~ [ "; for(auto n: arr) cout << n << " "; cout << "]" << endl;
+#define debap(arr)	cout << #arr << " ~ [ "; for(auto n: arr) cout << n.first << "-" << n.second << " "; cout << "]" << endl;
 #define fast 		ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
 #define mx9		1000000007
