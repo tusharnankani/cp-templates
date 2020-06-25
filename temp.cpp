@@ -3,9 +3,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long int ll;
-typedef unsigned long long int ull;
-typedef long double ld;
+typedef long long int           ll;
+typedef unsigned long long int  ull;
+typedef long double             ld;
+
+typedef pair<int, int>          pii;
+typedef pair<ll,ll>             pll;
+typedef vector<int>             vi;
+typedef vector<ll>              vll;
+typedef vector<pii>             vpii;
+typedef vector<pll>             vpll;
 
 #define test(t)		int t; cin >> t; while(t--)
 #define f(i, a, b)	for(int (i) = (a); (i) < (b); ++(i))
@@ -15,8 +22,8 @@ typedef long double ld;
 #define minvec(vec)     *min_element(all(vec))
 #define maxarr(arr)     *max_element(arr, arr + n)
 #define minarr(arr)     *min_element(arr, arr + n)
-#define deb(x)		cout << #x << ": " << x << endl;            
-#define deb2(x,y)	cout << #x << ": " << x << " | " << #y << ": " << y << endl;
+#define deb(x)		cout << #x << "--" << x << "--" << endl;
+#define deb2(x,y)	cout << #x << "-" << x << "-" << " ~~ " <<  #y << "-" << y << "-" << endl;
 #define deba(arr)	cout << #arr << " ~ [ "; for(auto n: arr) cout << n << " "; cout << "]" << endl;
 #define debap(arr)	cout << #arr << " ~ [ "; for(auto n: arr) cout << n.first << "-" << n.second << " "; cout << "]" << endl;
 #define fast 		ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
