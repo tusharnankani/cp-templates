@@ -22,8 +22,6 @@ typedef long double             ld;
 #define mx6		1000006
 #define mx5		200005
 
-
-
 void solve()
 {
 }
