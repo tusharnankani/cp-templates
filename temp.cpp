@@ -1,7 +1,11 @@
 #pragma GCC optimize("O3") 
 
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp> 
+#include <ext/pb_ds/tree_policy.hpp> 
+
 using namespace std;
+using namespace __gnu_pbds; 
 
 typedef long long int           ll;
 typedef unsigned long long int  ull;
@@ -18,10 +22,6 @@ typedef vector<pll>             vpll;
 #define f(i, a, b)	        for(int (i) = (a); (i) < (b); ++(i))
 #define all(a)		        (a).begin(), (a).end()
 #define endl 		        "\n"
-#define maxvec(vec)             *max_element(all(vec))
-#define minvec(vec)             *min_element(all(vec))
-#define maxarr(arr)             *max_element(arr, arr + n)
-#define minarr(arr)             *min_element(arr, arr + n)
 #define deb(x)		        cout << #x << ": " << x << endl;
 #define deb2(x,y)	        cout << #x << ": " << x << " ~ " <<  #y << ": " << y << endl;
 #define deba(arr)	        cout << #arr << " ~ [ "; for(auto n: arr) cout << n << " "; cout << "]" << endl;
