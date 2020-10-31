@@ -47,7 +47,7 @@ void solve()
 int main()
 {
     fast;
-    // test(t)
+    test(t)
         solve();
     return 0;
 }
