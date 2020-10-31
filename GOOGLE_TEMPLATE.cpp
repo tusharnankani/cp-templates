@@ -18,18 +18,18 @@ typedef vector<ll>              vll;
 typedef vector<pii>             vpii;
 typedef vector<pll>             vpll;
 
-#define test(t)		        int t; cin >> t; while(t--)
-#define f(i, a, b)	        for(int (i) = (a); (i) < (b); ++(i))
-#define all(a)		        (a).begin(), (a).end()
-#define endl 		        "\n"
+#define test(t)             int t; cin >> t; while(t--)
+#define f(i, a, b)          for(int (i) = (a); (i) < (b); ++(i))
+#define all(a)              (a).begin(), (a).end()
+#define endl                "\n"
 #define ff                  first
 #define ss                  second
 #define pb                  push_back
-#define deb(x)		        cout << #x << ": " << x << endl;
-#define deb2(x,y)	        cout << #x << ": " << x << " ~ " <<  #y << ": " << y << endl;
-#define deba(arr)	        cout << #arr << " ~ [ "; for(auto n: arr) cout << n << " "; cout << "]" << endl;
-#define debap(arr)	        cout << #arr << " ~ [ "; for(auto n: arr) cout << n.first << "-" << n.second << " "; cout << "]" << endl;
-#define fast 		        ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+#define deb(x)              cout << #x << ": " << x << endl;
+#define deb2(x,y)           cout << #x << ": " << x << " ~ " <<  #y << ": " << y << endl;
+#define deba(arr)           cout << #arr << " ~ [ "; for(auto n: arr) cout << n << " "; cout << "]" << endl;
+#define debap(arr)          cout << #arr << " ~ [ "; for(auto n: arr) cout << n.first << "-" << n.second << " "; cout << "]" << endl;
+#define fast                ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
 #define mx9		1000000007
 #define mx7		10000007
@@ -47,7 +47,12 @@ void solve()
 int main()
 {
     fast;
-    test(t)
+    ll t; cin >> t;
+    ll n = t;
+    while(t--)
+    {
+        cout << "Case #" << n - t << ": ";
         solve();
+    }
     return 0;
 }

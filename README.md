@@ -1,27 +1,4 @@
-# myFirstRepo
-My first Description in here...
-
-This is a README.md file.                 
-.md is markdown. 
-
-README.md is used to generate the overview/summary you see at the bottom of projects. 
-
-Github has their own flavor of Markdown. 
-Order of Preference: 
-    If you have two files named README and README.md, 
-    the file named README.md is preferred,
-    and it will be used to generate github's html summary.
-
-
-UPDATE: This is my first update to this README file.
-
-UPDATE 2: Second update to README.md
-
-# The Best way to Learn is, by Doing it.
-
-* LEARNING BY DOING
-
-
-# TO MASTER MARKDOWN TEXT FORMATTING:
-
-https://guides.github.com/features/mastering-markdown/
+# My CP Templates
+- Final Template: [TEMPLATE](TEMPLATE.cpp)
+- Simpler Templates: [BASIC_TEMPLATE](BASIC_TEMPLATEBASIC_TEMPLATE.cpp), [TEMPLATE - 2](TEMPLATE2.cpp)
+- For Google Competetions: [GOOGLE_TEMPLATE](GOOGLE_TEMPLATE.cpp)
