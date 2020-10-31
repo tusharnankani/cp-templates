@@ -22,6 +22,9 @@ typedef vector<pll>             vpll;
 #define f(i, a, b)	        for(int (i) = (a); (i) < (b); ++(i))
 #define all(a)		        (a).begin(), (a).end()
 #define endl 		        "\n"
+#define ff                  first
+#define ss                  second
+#define pb                  push_back
 #define deb(x)		        cout << #x << ": " << x << endl;
 #define deb2(x,y)	        cout << #x << ": " << x << " ~ " <<  #y << ": " << y << endl;
 #define deba(arr)	        cout << #arr << " ~ [ "; for(auto n: arr) cout << n << " "; cout << "]" << endl;
